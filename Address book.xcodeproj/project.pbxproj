@@ -17,7 +17,8 @@
 		2949608117D133F100A0270A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2949608017D133F100A0270A /* Default@2x.png */; };
 		2949608317D133F100A0270A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2949608217D133F100A0270A /* Default-568h@2x.png */; };
 		2949608617D133F100A0270A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949608417D133F100A0270A /* MainStoryboard.storyboard */; };
-		2949608917D133F100A0270A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2949608817D133F100A0270A /* ViewController.m */; };
+		2949608917D133F100A0270A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2949608817D133F100A0270A /* LoginViewController.m */; };
+		2949609117D1393200A0270A /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2949609017D1393200A0270A /* AddressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		2949608017D133F100A0270A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2949608217D133F100A0270A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2949608517D133F100A0270A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2949608717D133F100A0270A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2949608817D133F100A0270A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2949608717D133F100A0270A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2949608817D133F100A0270A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2949608F17D1393200A0270A /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		2949609017D1393200A0270A /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				2949607B17D133F100A0270A /* AppDelegate.h */,
+				2949608F17D1393200A0270A /* AddressViewController.h */,
+				2949609017D1393200A0270A /* AddressViewController.m */,
 				2949607C17D133F100A0270A /* AppDelegate.m */,
 				2949608417D133F100A0270A /* MainStoryboard.storyboard */,
-				2949608717D133F100A0270A /* ViewController.h */,
-				2949608817D133F100A0270A /* ViewController.m */,
+				2949608717D133F100A0270A /* LoginViewController.h */,
+				2949608817D133F100A0270A /* LoginViewController.m */,
 				2949607317D133F100A0270A /* Supporting Files */,
 			);
 			path = "Address book";
@@ -175,7 +180,8 @@
 			files = (
 				2949607917D133F100A0270A /* main.m in Sources */,
 				2949607D17D133F100A0270A /* AppDelegate.m in Sources */,
-				2949608917D133F100A0270A /* ViewController.m in Sources */,
+				2949608917D133F100A0270A /* LoginViewController.m in Sources */,
+				2949609117D1393200A0270A /* AddressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
