@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AddressViewController.h
 //  Address book
 //
 //  Created by Sveta on 30.08.13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface AddressViewController : UITableViewController
 
 @end

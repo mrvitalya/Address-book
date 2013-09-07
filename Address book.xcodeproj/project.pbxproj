@@ -17,17 +17,11 @@
 		2949608117D133F100A0270A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2949608017D133F100A0270A /* Default@2x.png */; };
 		2949608317D133F100A0270A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2949608217D133F100A0270A /* Default-568h@2x.png */; };
 		2949608617D133F100A0270A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949608417D133F100A0270A /* MainStoryboard.storyboard */; };
-		29943C3417D1F11800ECB462 /* PersonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943C3317D1F11800ECB462 /* PersonsViewController.m */; };
-		29943C3717D279E100ECB462 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943C3617D279E100ECB462 /* AddPersonViewController.m */; };
-		29943C4417D3FE6F00ECB462 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29943C4317D3FE6F00ECB462 /* QuartzCore.framework */; };
-		29943C4A17D404CE00ECB462 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29943C4917D404CE00ECB462 /* PersonDetailViewController.m */; };
-		29E305B517D9332300FC62E2 /* SQLiteAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E305B317D9332300FC62E2 /* SQLiteAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		29E305B717D9339B00FC62E2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E305B617D9339B00FC62E2 /* libsqlite3.0.dylib */; };
-		29E305B917D933E100FC62E2 /* address_book_db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 29E305B817D933E100FC62E2 /* address_book_db.sqlite */; };
+		2949608917D133F100A0270A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2949608817D133F100A0270A /* LoginViewController.m */; };
+		2949609117D1393200A0270A /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2949609017D1393200A0270A /* AddressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		291187F317D54F2D000C62B7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		2949606917D133F100A0270A /* Address book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Address book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2949606C17D133F100A0270A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2949606E17D133F100A0270A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,17 +36,10 @@
 		2949608017D133F100A0270A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2949608217D133F100A0270A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2949608517D133F100A0270A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		29943C3217D1F11800ECB462 /* PersonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonsViewController.h; sourceTree = "<group>"; };
-		29943C3317D1F11800ECB462 /* PersonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonsViewController.m; sourceTree = "<group>"; };
-		29943C3517D279E100ECB462 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
-		29943C3617D279E100ECB462 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
-		29943C4317D3FE6F00ECB462 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		29943C4817D404CE00ECB462 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = ../PersonDetailViewController.h; sourceTree = "<group>"; };
-		29943C4917D404CE00ECB462 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = ../PersonDetailViewController.m; sourceTree = "<group>"; };
-		29E305B317D9332300FC62E2 /* SQLiteAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteAccess.m; path = "Address book/SQLiteAccess.m"; sourceTree = "<group>"; };
-		29E305B417D9332300FC62E2 /* SQLiteAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteAccess.h; path = "Address book/SQLiteAccess.h"; sourceTree = "<group>"; };
-		29E305B617D9339B00FC62E2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		29E305B817D933E100FC62E2 /* address_book_db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = address_book_db.sqlite; path = "Address book/address_book_db.sqlite"; sourceTree = "<group>"; };
+		2949608717D133F100A0270A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2949608817D133F100A0270A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2949608F17D1393200A0270A /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		2949609017D1393200A0270A /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E305B717D9339B00FC62E2 /* libsqlite3.0.dylib in Frameworks */,
-				29943C4417D3FE6F00ECB462 /* QuartzCore.framework in Frameworks */,
 				2949606D17D133F100A0270A /* UIKit.framework in Frameworks */,
 				2949606F17D133F100A0270A /* Foundation.framework in Frameworks */,
 				2949607117D133F100A0270A /* CoreGraphics.framework in Frameworks */,
@@ -74,10 +59,6 @@
 		2949606017D133F100A0270A = {
 			isa = PBXGroup;
 			children = (
-				29E305B817D933E100FC62E2 /* address_book_db.sqlite */,
-				29E305B617D9339B00FC62E2 /* libsqlite3.0.dylib */,
-				29E305B317D9332300FC62E2 /* SQLiteAccess.m */,
-				29E305B417D9332300FC62E2 /* SQLiteAccess.h */,
 				2949607217D133F100A0270A /* Address book */,
 				2949606B17D133F100A0270A /* Frameworks */,
 				2949606A17D133F100A0270A /* Products */,
@@ -95,8 +76,6 @@
 		2949606B17D133F100A0270A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				291187F317D54F2D000C62B7 /* libsqlite3.dylib */,
-				29943C4317D3FE6F00ECB462 /* QuartzCore.framework */,
 				2949606C17D133F100A0270A /* UIKit.framework */,
 				2949606E17D133F100A0270A /* Foundation.framework */,
 				2949607017D133F100A0270A /* CoreGraphics.framework */,
@@ -108,14 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				2949607B17D133F100A0270A /* AppDelegate.h */,
+				2949608F17D1393200A0270A /* AddressViewController.h */,
+				2949609017D1393200A0270A /* AddressViewController.m */,
 				2949607C17D133F100A0270A /* AppDelegate.m */,
-				29943C3217D1F11800ECB462 /* PersonsViewController.h */,
-				29943C3317D1F11800ECB462 /* PersonsViewController.m */,
 				2949608417D133F100A0270A /* MainStoryboard.storyboard */,
-				29943C3517D279E100ECB462 /* AddPersonViewController.h */,
-				29943C3617D279E100ECB462 /* AddPersonViewController.m */,
-				29943C4817D404CE00ECB462 /* PersonDetailViewController.h */,
-				29943C4917D404CE00ECB462 /* PersonDetailViewController.m */,
+				2949608717D133F100A0270A /* LoginViewController.h */,
+				2949608817D133F100A0270A /* LoginViewController.m */,
 				2949607317D133F100A0270A /* Supporting Files */,
 			);
 			path = "Address book";
@@ -191,7 +168,6 @@
 				2949608117D133F100A0270A /* Default@2x.png in Resources */,
 				2949608317D133F100A0270A /* Default-568h@2x.png in Resources */,
 				2949608617D133F100A0270A /* MainStoryboard.storyboard in Resources */,
-				29E305B917D933E100FC62E2 /* address_book_db.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,10 +180,8 @@
 			files = (
 				2949607917D133F100A0270A /* main.m in Sources */,
 				2949607D17D133F100A0270A /* AppDelegate.m in Sources */,
-				29943C3417D1F11800ECB462 /* PersonsViewController.m in Sources */,
-				29943C3717D279E100ECB462 /* AddPersonViewController.m in Sources */,
-				29943C4A17D404CE00ECB462 /* PersonDetailViewController.m in Sources */,
-				29E305B517D9332300FC62E2 /* SQLiteAccess.m in Sources */,
+				2949608917D133F100A0270A /* LoginViewController.m in Sources */,
+				2949609117D1393200A0270A /* AddressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +304,6 @@
 				2949608E17D133F100A0270A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
